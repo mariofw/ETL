@@ -1,0 +1,172 @@
+[
+  {
+    "booking_id": 1,
+    "booking_date": "2023-09-01",
+    "user": {
+      "full_name": "Alice Smith",
+      "phone_number": "123-456-7890"
+    },
+    "payment": {
+      "payment_method": "Credit Card",
+      "status": "completed"
+    },
+    "ticket": {
+      "ticket_code": "TCKT001",
+      "status": "true",
+      "tier_name": "VVIP",
+      "price": 200,
+      "promotion": {
+        "promo_code": "ROCK10",
+        "discount_percentage": 10
+      }
+    },
+    "event": {
+      "event_name": "Rock Concert",
+      "event_date": "2023-10-01",
+      "artist_name": "The Beatles",
+      "genre": "Rock",
+      "venue_name": "Madison Square Garden",
+      "location": "New York, USA",
+      "organizer_name": "Live Nation",
+      "seat": {
+        "seat_number": "A1"
+      }
+    }
+  },
+  {
+    "booking_id": 2,
+    "booking_date": "2023-09-15",
+    "user": {
+      "full_name": "Bob Johnson",
+      "phone_number": "234-567-8901"
+    },
+    "payment": {
+      "payment_method": "PayPal",
+      "status": "completed"
+    },
+    "ticket": {
+      "ticket_code": "TCKT002",
+      "status": "true",
+      "tier_name": "VIP",
+      "price": 150,
+      "promotion": {
+        "promo_code": "POP20",
+        "discount_percentage": 20
+      }
+    },
+    "event": {
+      "event_name": "Pop Festival",
+      "event_date": "2023-11-15",
+      "artist_name": "Madonna",
+      "genre": "Pop",
+      "venue_name": "The O2 Arena",
+      "location": "London, UK",
+      "organizer_name": "Ticketmaster",
+      "seat": {
+        "seat_number": "A2"
+      }
+    }
+  },
+  {
+    "booking_id": 3,
+    "booking_date": "2023-10-05",
+    "user": {
+      "full_name": "Charlie Lee",
+      "phone_number": "345-678-9012"
+    },
+    "payment": {
+      "payment_method": "Bank Transfer",
+      "status": "pending"
+    },
+    "ticket": {
+      "ticket_code": "TCKT003",
+      "status": "false",
+      "tier_name": "Side",
+      "price": 100,
+      "promotion": {
+        "promo_code": "JAZZ15",
+        "discount_percentage": 15
+      }
+    },
+    "event": {
+      "event_name": "Jazz Night",
+      "event_date": "2023-12-05",
+      "artist_name": "Michael Jackson",
+      "genre": "Pop",
+      "venue_name": "Sydney Opera House",
+      "location": "Sydney, Australia",
+      "organizer_name": "Eventbrite",
+      "seat": {
+        "seat_number": "B1"
+      }
+    }
+  },
+  {
+    "booking_id": 4,
+    "booking_date": "2023-11-20",
+    "user": {
+      "full_name": "David Brown",
+      "phone_number": "456-789-0123"
+    },
+    "payment": {
+      "payment_method": "Credit Card",
+      "status": "completed"
+    },
+    "ticket": {
+      "ticket_code": "TCKT004",
+      "status": "true",
+      "tier_name": "Balcony",
+      "price": 75,
+      "promotion": {
+        "promo_code": "CLASSICAL5",
+        "discount_percentage": 5
+      }
+    },
+    "event": {
+      "event_name": "Classical Evening",
+      "event_date": "2024-01-20",
+      "artist_name": "Elvis Presley",
+      "genre": "Rock and Roll",
+      "venue_name": "Wembley Stadium",
+      "location": "London, UK",
+      "organizer_name": "AEG Presents",
+      "seat": {
+        "seat_number": "B2"
+      }
+    }
+  },
+  {
+    "booking_id": 5,
+    "booking_date": "2023-12-14",
+    "user": {
+      "full_name": "Eva White",
+      "phone_number": "567-890-1234"
+    },
+    "payment": {
+      "payment_method": "PayPal",
+      "status": "failed"
+    },
+    "ticket": {
+      "ticket_code": "TCKT005",
+      "status": "false",
+      "tier_name": "Regular",
+      "price": 50,
+      "promotion": {
+        "promo_code": "HIPHOP25",
+        "discount_percentage": 25
+      }
+    },
+    "event": {
+      "event_name": "Hip Hop Bash",
+      "event_date": "2024-02-14",
+      "artist_name": "Queen",
+      "genre": "Rock",
+      "venue_name": "Hollywood Bowl",
+      "location": "Los Angeles, USA",
+      "organizer_name": "Cvent",
+      "seat": {
+        "seat_number": "C1"
+      }
+    }
+  }
+]
